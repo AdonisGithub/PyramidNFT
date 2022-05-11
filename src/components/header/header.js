@@ -19,7 +19,7 @@ const Header = (props) => {
         <div className="flex flex-row justify-around w-full items-center">
           <div className="hidden lg:flex">
               <Link to="/">
-                <img src={logo} alt="logo" className="max-w-[100px] px-4"/>
+                <img src={logo} alt="logo" className="max-w-[90px] px-4"/>
               </Link>
               <Link to="/" className="headerfont flex shrink-0 items-center px-4 "
               >
@@ -44,8 +44,20 @@ const Header = (props) => {
 
           </div>
           <div className="hidden lg:flex">
-          <a
-              href="https://twitter.com/"
+            <div className="Minter">
+              {
+                walletAddress ? 
+                <button className="custombutton2 mx-4 shrink-0" onClick={onClickDisconnectWallet}>
+                  { walletAddress.slice(0, 11) }...
+                </button>
+                :
+                <button className="custombutton2 mx-4 shrink-0" onClick={onClickConnectWallet}>
+                  CONNECT
+                </button>
+              }
+            </div>
+            <a
+              href="https://twitter.com/eyeANDpyramid"
               className="flex  items-center cursor-pointer px-4"
               target="_blank" rel="noreferrer"
             >
@@ -59,41 +71,52 @@ const Header = (props) => {
               <img src={instagramimg} alt="instagramimg" className="min-w-[30px] max-w-[30px]"/>
             </a>
             <a
-              href="https://discord.gg/"
+              href="https://discord.gg/Jzz48CS6WR"
               className="flex items-center cursor-pointer px-4"
               target="_blank" rel="noreferrer"
             >
               <img src={discordimg} alt="discordimg" className="min-w-[30px] max-w-[30px]"/>
             </a>
-            <div className="Minter">
-              {
-                walletAddress ? 
-                <button className="custombutton2 mx-4 shrink-0" onClick={onClickDisconnectWallet}>
-                  { walletAddress.slice(0, 11) }...
-                </button>
-                :
-                <button className="custombutton2 mx-4 shrink-0" onClick={onClickConnectWallet}>
-                  Connect Wallet
-                </button>
-              }
-            </div>
           </div>
           <div className="flex lg:hidden w-full justify-between items-center px-1 sm:px-8">
             <Link to="/">
-              <img src={logo} alt="logo" className="w-24 hidden sm:flex"/>
+              <img src={logo} alt="logo" className="w-[75px] "/>
             </Link>
-            <div className="flex">
+            <div className="flex items-center">
               <div className="Minter">
-                {
-                  walletAddress ? 
-                  <button className="custombutton2 mx-4 shrink-0" onClick={onClickDisconnectWallet}>
-                    { walletAddress.slice(0, 11) }...
-                  </button>
-                  :
-                  <button className="custombutton2 mx-4 shrink-0" onClick={onClickConnectWallet}>
-                    Connect Wallet
-                  </button>
-                }
+                  {
+                    walletAddress ? 
+                    <button className="custombutton2 mx-4 shrink-0" onClick={onClickDisconnectWallet}>
+                      { walletAddress.slice(0, 11) }...
+                    </button>
+                    :
+                    <button className="custombutton2 mx-4 shrink-0" onClick={onClickConnectWallet}>
+                      CONNECT
+                    </button>
+                  }
+              </div>
+              <div className="hidden sm:flex">
+                <a
+                  href="https://twitter.com/eyeANDpyramid"
+                  className="flex  items-center cursor-pointer px-4"
+                  target="_blank" rel="noreferrer"
+                >
+                  <img src={twitterimg} alt="twitterimg" className="min-w-[30px] max-w-[30px] "/>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  className="flex items-center cursor-pointer px-4"
+                  target="_blank" rel="noreferrer"
+                >
+                  <img src={instagramimg} alt="instagramimg" className="min-w-[30px] max-w-[30px]"/>
+                </a>
+                <a
+                  href="https://discord.gg/Jzz48CS6WR"
+                  className="flex items-center cursor-pointer pl-4 pr-8"
+                  target="_blank" rel="noreferrer"
+                >
+                  <img src={discordimg} alt="discordimg" className="min-w-[30px] max-w-[30px]"/>
+                </a>
               </div>
               <HumburgerMenu />
             </div>

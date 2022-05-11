@@ -30,12 +30,12 @@ code {
   box-shadow: 1px 1px 9px 1px white;
 }
 .custombutton2{
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 800;
   background: #e6c425;
   border-radius: 40px;
-  width: 230px;
-  height: 46px;
+  width: 140px;
+  height: 33px;
 }
 .custombutton2:hover{
   font-size: 18px;

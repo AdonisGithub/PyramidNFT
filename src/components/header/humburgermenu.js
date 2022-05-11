@@ -13,7 +13,7 @@ export default function HumburgerMenu() {
           <div>
             <Menu.Button>
               <Hamburger
-                size={30}
+                size={40}
                 duration={0.8}
                 color="white"
                 toggled={open}
@@ -108,7 +108,7 @@ export default function HumburgerMenu() {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/eyeANDpyramid" target="_blank" rel="noreferrer">
                       <button
                         className={`${
                           active
@@ -138,7 +138,7 @@ export default function HumburgerMenu() {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <a href="https://discord.gg/" target="_blank" rel="noreferrer">
+                    <a href="https://discord.gg/Jzz48CS6WR" target="_blank" rel="noreferrer">
                       <button
                         className={`${
                           active

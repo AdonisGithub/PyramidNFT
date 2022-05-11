@@ -9,10 +9,10 @@ const PrivateChat = () => {
         <div className="flex w-4/5 mt-[128px] lg:mt-[0px]">
           <div className="flex w-full pl-4">
             <div className="w-full">
-              <div className="flex w-full justify-center text-center text-white text-2xl font-bold underline mb-9">
+              <div className="flex w-full justify-center text-center text-white text-sm md:text-2xl font-bold underline mb-9">
                 PRIVATE LOBBY
               </div>
-              <div className="flex w-full justify-center text-center text-white text-sm font-bold mb-5">
+              <div className="flex w-full justify-center text-center text-white text-xs md:text-sm font-bold mb-5">
                 NOT AVAILABLE YET. REMEMBER, ONLY BY BEING AN OWNER YOU'LL ABLE TO ACCESS THE PRIVATE CHATS.
               </div>
             </div>  

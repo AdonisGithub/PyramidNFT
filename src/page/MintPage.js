@@ -90,19 +90,19 @@ const MintPage = () => {
           </div>
           <div className="flex w-full lg:w-2/3 px-8 py-4">
             <div className="w-full">
-              <div className="flex w-full justify-center text-center text-white text-2xl font-bold underline mb-3">
+              <div className="flex w-full justify-center text-center text-white text-sm md:text-2xl font-bold underline mb-3">
                 THE EYE OF THE PYRAMID TICKET
               </div>
-              <div className="text-white text-center text-sm font-bold mb-4">
+              <div className="text-white text-center text-xs md:text-sm font-bold mb-4">
                 BUILT ON THE ETHEREUM BLOCKCHAIN WHTH A LIMITED SUPPLY OF 1499 NFTS, THE EYE OF THE PYRAMID WILL GIVE EXCLUSIVE ACCESS TO OUR SERVICES. AS A DIGITAL COMPANY, THE GOAL OF THE EYE OF THE PYRAMID IS TO CREATE MORE DIGITAL EVENTS, WHICH INCLUDE PRIVATE PARTIES WHERE YOU CAN TALK TO OTHER PEOPLE ABOUT NFTS AND CRYPTOS.
               </div>
-              <div className="text-white text-center text-sm font-bold mb-4">
+              <div className="text-white text-center text-xs md:text-sm font-bold mb-4">
                 A CASINOS'WHERE YOU CAN PLAY WITH OUR TOKEN (EARNED BY STAKING THE NFTS) AND THE MOST IMPORTANT THING IS THE POSSIBILITY TO VOTE AND CHOOSE THE DIRECTION THAT THE PROJECT WILL TAKE.
               </div>
-              <div className="text-white text-center text-sm font-bold mb-4">
+              <div className="text-white text-center text-xs md:text-sm font-bold mb-4">
                 ADDITIONALLY YOU WILL HAVE EARLY ACCESS TO OUR FUTURE COLLECTIONS AND TO OUR MERCHANDISING.
               </div>
-              <div className="text-white text-center text-sm font-bold mb-4">
+              <div className="text-white text-center text-xs md:text-sm font-bold mb-4">
                 WE'RE HERE FOR THE LONG TERM, AND YOU?
               </div>
               <div className="flex w-full justify-center mb-3">
