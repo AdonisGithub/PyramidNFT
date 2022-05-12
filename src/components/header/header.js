@@ -3,7 +3,6 @@ import {useLocation,Link} from "react-router-dom"
 import HumburgerMenu from "./humburgermenu";
 import logo from "../../assets/images/logo.png";
 import twitterimg from "../../assets/images/twitter.png";
-import instagramimg from "../../assets/images/instagram.png";
 import discordimg from "../../assets/images/discord.png";
 
 const Header = (props) => {
@@ -64,13 +63,6 @@ const Header = (props) => {
               <img src={twitterimg} alt="twitterimg" className="min-w-[30px] max-w-[30px] "/>
             </a>
             <a
-              href="https://www.instagram.com/"
-              className="flex items-center cursor-pointer px-4"
-              target="_blank" rel="noreferrer"
-            >
-              <img src={instagramimg} alt="instagramimg" className="min-w-[30px] max-w-[30px]"/>
-            </a>
-            <a
               href="https://discord.gg/Jzz48CS6WR"
               className="flex items-center cursor-pointer px-4"
               target="_blank" rel="noreferrer"
@@ -102,13 +94,6 @@ const Header = (props) => {
                   target="_blank" rel="noreferrer"
                 >
                   <img src={twitterimg} alt="twitterimg" className="min-w-[30px] max-w-[30px] "/>
-                </a>
-                <a
-                  href="https://www.instagram.com/"
-                  className="flex items-center cursor-pointer px-4"
-                  target="_blank" rel="noreferrer"
-                >
-                  <img src={instagramimg} alt="instagramimg" className="min-w-[30px] max-w-[30px]"/>
                 </a>
                 <a
                   href="https://discord.gg/Jzz48CS6WR"

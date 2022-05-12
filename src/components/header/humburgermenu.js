@@ -123,21 +123,6 @@ export default function HumburgerMenu() {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-                      <button
-                        className={`${
-                          active
-                            ? "bg-black bg-opacity-50 text-yellow-300"
-                            : "bg-black bg-opacity-50 text-white "
-                        } flex items-center w-full px-2 py-2 text-sm`}
-                      >
-                        INSTAGRAM
-                      </button>
-                    </a>
-                  )}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (
                     <a href="https://discord.gg/Jzz48CS6WR" target="_blank" rel="noreferrer">
                       <button
                         className={`${
