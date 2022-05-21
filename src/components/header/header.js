@@ -40,7 +40,10 @@ const Header = (props) => {
               >
                 OUR BRAND
               </Link>
-
+              <Link to="/communitybrand" className={`${currentpath==="communitybrand"?"hidden":"headerfont flex shrink-0 items-center px-4"}`}
+              >
+                COMMUNITY BRAND
+              </Link>
           </div>
           <div className="hidden lg:flex">
             <div className="Minter">

@@ -6,6 +6,7 @@ import {MintPage} from "./page/MintPage";
 import {OurBrand} from "./page/OurBrand";
 import {PrivateChat} from "./page/PrivateChat";
 import {Staking} from "./page/Staking";
+import {CommunityBrand} from "./page/CommunityBrand";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/ourbrand" element={<OurBrand />} />
           <Route exact path="/privatechat" element={<PrivateChat />} />
           <Route exact path="/staking" element={<Staking />} />
+          <Route exact path="/communitybrand" element={<CommunityBrand />} />
         </Routes>
       </Router>
   );

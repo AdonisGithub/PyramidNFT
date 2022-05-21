@@ -13,7 +13,7 @@ export default function HumburgerMenu() {
           <div>
             <Menu.Button>
               <Hamburger
-                size={40}
+                size={30}
                 duration={0.8}
                 color="white"
                 toggled={open}
@@ -102,6 +102,21 @@ export default function HumburgerMenu() {
                         } flex items-center w-full px-2 py-2 text-sm`}
                       >
                         OUR BRAND
+                      </button>
+                    </Link>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
+                    <Link to="/communitybrand">
+                      <button
+                        className={`${
+                          active
+                            ? "bg-black bg-opacity-50 text-yellow-300"
+                            : "bg-black bg-opacity-50 text-white "
+                        } flex items-center w-full px-2 py-2 text-sm`}
+                      >
+                        COMMUNITY BRAND
                       </button>
                     </Link>
                   )}

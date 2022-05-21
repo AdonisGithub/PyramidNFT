@@ -50,9 +50,6 @@ export const Mint = (props) => {
 
   return (
     <div className="">
-      <h2 className='text-white text-center'>
-        {totalSupply} / {maxMintSupply}{' '}
-      </h2>
       {loading ? (
         <button className="custombutton2" disabled={false}>
           {' '}
@@ -64,6 +61,9 @@ export const Mint = (props) => {
           MINT{' '}
         </button>
       )}
+      <div className='text-white text-center font-bold text-[14px]'>
+        <span>(</span>{totalSupply} / {maxMintSupply}<span>)</span>
+      </div>
     </div>
   )
 }
