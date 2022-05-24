@@ -7,6 +7,7 @@ import {OurBrand} from "./page/OurBrand";
 import {PrivateChat} from "./page/PrivateChat";
 import {Staking} from "./page/Staking";
 import {CommunityBrand} from "./page/CommunityBrand";
+import {HistoryandRoadmap} from "./page/HistoryandRoadmap";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/privatechat" element={<PrivateChat />} />
           <Route exact path="/staking" element={<Staking />} />
           <Route exact path="/communitybrand" element={<CommunityBrand />} />
+          <Route exact path="/historyandroadmap" element={<HistoryandRoadmap />} />
         </Routes>
       </Router>
   );

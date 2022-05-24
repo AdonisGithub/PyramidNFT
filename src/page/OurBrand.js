@@ -5,7 +5,7 @@ const OurBrand = () => {
   return (
     <div className="w-full min-h-screen overflow-hidden bg-black">
       <Header/>
-      < div className="flex w-full h-[calc(100vh-128px)] justify-center items-center ">
+      < div className="flex w-full lg:h-screen justify-center items-center ">
         <div className="flex w-4/5 mt-[128px] lg:mt-[0px]">
           <div className="flex w-full pl-4">
             <div className="w-full">

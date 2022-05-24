@@ -123,6 +123,21 @@ export default function HumburgerMenu() {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
+                    <Link to="/historyandroadmap">
+                      <button
+                        className={`${
+                          active
+                            ? "bg-black bg-opacity-50 text-yellow-300"
+                            : "bg-black bg-opacity-50 text-white "
+                        } flex items-center w-full px-2 py-2 text-sm`}
+                      >
+                        HISTORY AND ROADMAP
+                      </button>
+                    </Link>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
                     <a href="https://twitter.com/eyeANDpyramid" target="_blank" rel="noreferrer">
                       <button
                         className={`${
@@ -147,6 +162,21 @@ export default function HumburgerMenu() {
                         } flex items-center w-full px-2 py-2 text-sm`}
                       >
                         DISCORD
+                      </button>
+                    </a>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
+                    <a href="https://www.youtube.com/channel/UCPSend91jkkmQMRTng-TkWg" target="_blank" rel="noreferrer">
+                      <button
+                        className={`${
+                          active
+                            ? "bg-black bg-opacity-50 text-yellow-300"
+                            : "bg-black bg-opacity-50 text-white "
+                        } flex items-center w-full px-2 py-2 text-sm`}
+                      >
+                        YUTUBE
                       </button>
                     </a>
                   )}

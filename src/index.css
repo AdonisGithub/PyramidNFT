@@ -20,6 +20,8 @@ code {
     width: 300px;
     height: 59px;
     flex-shrink: 0;
+    box-shadow: 0px 0px 8px 3px white;
+
 }
 .custombutton1:hover{
     box-shadow: 0px 0px 8px 3px white;

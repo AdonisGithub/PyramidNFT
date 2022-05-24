@@ -75,7 +75,7 @@ const MintPage = () => {
         onClickConnectWallet={onClickConnectWallet}
         walletAddress={walletAddress}
       />
-      < div className="flex w-full lg:h-[calc(100vh-128px)] justify-center items-center ">
+      < div className="flex w-full lg:h-screen justify-center items-center ">
         <div className="flex flex-col lg:flex-row w-4/5">
           <div className="flex w-full lg:w-1/3 p-8 mt-[128px] lg:mt-[0px]">
               <video

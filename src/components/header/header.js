@@ -4,6 +4,7 @@ import HumburgerMenu from "./humburgermenu";
 import logo from "../../assets/images/logo.png";
 import twitterimg from "../../assets/images/twitter.png";
 import discordimg from "../../assets/images/discord.png";
+import yutubeimg from "../../assets/images/yutube.png";
 
 const Header = (props) => {
   const location = useLocation();
@@ -14,9 +15,9 @@ const Header = (props) => {
   // }); 
   return (
     <nav id="nav">
-      <div className="flex fixed lg:static w-full h-[128px] py-3 bg-black border-b-2">
+      <div className="flex fixed w-full h-[128px] py-3 bg-black border-b-2">
         <div className="flex flex-row justify-around w-full items-center">
-          <div className="hidden lg:flex">
+          <div className="hidden xl:flex">
               <Link to="/">
                 <img src={logo} alt="logo" className="max-w-[90px] px-4"/>
               </Link>
@@ -44,8 +45,12 @@ const Header = (props) => {
               >
                 COMMUNITY BRAND
               </Link>
+              <Link to="/historyandroadmap" className={`${currentpath==="historyandroadmap"?"hidden":"headerfont flex shrink-0 items-center px-4"}`}
+              >
+                HISTORY AND ROADMAP
+              </Link>
           </div>
-          <div className="hidden lg:flex">
+          <div className="hidden xl:flex">
             <div className="Minter">
               {
                 walletAddress ? 
@@ -72,8 +77,15 @@ const Header = (props) => {
             >
               <img src={discordimg} alt="discordimg" className="min-w-[30px] max-w-[30px]"/>
             </a>
+            <a
+              href="https://www.youtube.com/channel/UCPSend91jkkmQMRTng-TkWg"
+              className="flex items-center cursor-pointer px-4"
+              target="_blank" rel="noreferrer"
+            >
+              <img src={yutubeimg} alt="yutubeimg" className="min-w-[30px] max-w-[30px]"/>
+            </a>
           </div>
-          <div className="flex lg:hidden w-full justify-between items-center px-1 sm:px-8">
+          <div className="flex xl:hidden w-full justify-between items-center px-1 sm:px-8">
             <Link to="/">
               <img src={logo} alt="logo" className="w-[75px] "/>
             </Link>
@@ -104,6 +116,13 @@ const Header = (props) => {
                   target="_blank" rel="noreferrer"
                 >
                   <img src={discordimg} alt="discordimg" className="min-w-[30px] max-w-[30px]"/>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCPSend91jkkmQMRTng-TkWg"
+                  className="flex items-center cursor-pointer px-4"
+                  target="_blank" rel="noreferrer"
+                >
+                  <img src={yutubeimg} alt="yutubeimg" className="min-w-[30px] max-w-[30px]"/>
                 </a>
               </div>
               <HumburgerMenu />

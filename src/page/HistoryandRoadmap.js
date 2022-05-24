@@ -1,7 +1,7 @@
 import React from "react";
 import {Header} from "../components/header"
 
-const Staking = () => {
+const HistoryandRoadmap = () => {
   return (
     <div className="w-full min-h-screen overflow-hidden bg-black">
       <Header/>
@@ -10,10 +10,10 @@ const Staking = () => {
           <div className="flex w-full pl-4">
             <div className="w-full">
               <div className="flex w-full justify-center text-center text-white text-sm md:text-2xl font-bold underline mb-9">
-                STAKING
+                HISTORY AND ROADMAP
               </div>
-              <div className="flex w-full justify-center text-center text-white text-xs md:text-sm font-bold mb-5">
-                NOT AVAILABLE YET. REMEMBER, ONCE THE SALE IS OPEN YOU'LL BE ABLE TO INTERACT WITH THE STAKING PLATFORM AND RECEIVE OUR TOKEN.
+              <div className="flex w-full justify-center text-center text-white text-sm md:text-2xl font-bold mb-4">
+                COMING OUT SOON.
               </div>
             </div>  
           </div>
@@ -22,4 +22,4 @@ const Staking = () => {
     </div>
   );
 };
-export { Staking };
+export { HistoryandRoadmap };
