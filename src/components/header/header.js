@@ -15,7 +15,7 @@ const Header = (props) => {
   // }); 
   return (
     <nav id="nav">
-      <div className="flex fixed w-full h-[128px] py-3 bg-black border-b-2">
+      <div className="flex fixed w-full h-[128px] py-3 bg-[#00000070] border-b-2">
         <div className="flex flex-row justify-around w-full items-center">
           <div className="hidden xl:flex">
               <Link to="/">

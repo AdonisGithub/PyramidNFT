@@ -1,11 +1,14 @@
 import React from "react";
-import {Header} from "../components/header"
+import {Header} from "../components/header";
+import privatechatbackgroundimg from "../assets/images/privatebackimg.jpeg";
 
 const PrivateChat = () => {
   return (
-    <div className="w-full min-h-screen overflow-hidden bg-black">
-      <Header/>
-      < div className="flex w-full lg:h-screen justify-center items-center ">
+    <div className="flex w-full min-h-screen relative overflow-hidden bg-black">
+      <div className="flex z-30">
+        <Header/>
+      </div>
+      < div className="min-h-screen min-w-full z-20 flex justify-center items-center">
         <div className="flex w-4/5 mt-[128px] lg:mt-[0px]">
           <div className="flex w-full pl-4">
             <div className="w-full">
@@ -18,6 +21,9 @@ const PrivateChat = () => {
             </div>  
           </div>
         </div>
+      </div>
+      <div className="hidden lg:flex absolute z-10 w-auto min-w-full min-h-full max-w-none overflow-hidden justify-center items-center">
+        <img src={privatechatbackgroundimg} alt="backgroundimg" className="flex h-screen w-full"/>
       </div>
     </div>
   );
