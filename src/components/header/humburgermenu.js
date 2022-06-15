@@ -93,7 +93,7 @@ export default function HumburgerMenu() {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <Link to="/ourbrand">
+                    <Link to="/ourproject">
                       <button
                         className={`${
                           active
@@ -101,14 +101,14 @@ export default function HumburgerMenu() {
                             : "bg-black bg-opacity-50 text-white "
                         } flex items-center w-full px-2 py-2 text-sm`}
                       >
-                        OUR BRAND
+                        OUR PROJECT
                       </button>
                     </Link>
                   )}
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <Link to="/communitybrand">
+                    <Link to="/communityproject">
                       <button
                         className={`${
                           active
@@ -116,7 +116,7 @@ export default function HumburgerMenu() {
                             : "bg-black bg-opacity-50 text-white "
                         } flex items-center w-full px-2 py-2 text-sm`}
                       >
-                        COMMUNITY BRAND
+                        COMMUNITY PROJECT
                       </button>
                     </Link>
                   )}

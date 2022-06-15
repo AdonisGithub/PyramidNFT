@@ -55,13 +55,45 @@ code {
   color:#e6c425;
 }
 
-.stakingbackground{
+.background_staking {
   background-image: url("./assets/images/stakingbackimg.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
+
+.background_communityproject {
+  background-image: url("./assets/images/communitybackimg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.background_ourproject {
+  background-image: url("./assets/images/ourprojectbackimg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.background_historyandroadmap_lap {
+  background-image: url("./assets/images/historybackimg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.background_privatechat_lap {
+  background-image: url("./assets/images/privatebackimg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

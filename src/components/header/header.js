@@ -15,7 +15,7 @@ const Header = (props) => {
   // }); 
   return (
     <nav id="nav">
-      <div className="flex fixed w-full h-[128px] py-3 bg-[#00000070] border-b-2">
+      <div className="flex fixed w-full h-[128px] py-3 bg-black border-b-2">
         <div className="flex flex-row justify-around w-full items-center">
           <div className="hidden xl:flex">
               <Link to="/">
@@ -37,13 +37,13 @@ const Header = (props) => {
               >
                 STAKING
               </Link>
-              <Link to="/ourbrand" className={`${currentpath==="ourbrand"?"hidden":"headerfont flex shrink-0 items-center px-4"}`}
+              <Link to="/ourproject" className={`${currentpath==="ourproject"?"hidden":"headerfont flex shrink-0 items-center px-4"}`}
               >
-                OUR BRAND
+                OUR PROJECT
               </Link>
-              <Link to="/communitybrand" className={`${currentpath==="communitybrand"?"hidden":"headerfont flex shrink-0 items-center px-4"}`}
+              <Link to="/communityproject" className={`${currentpath==="communityproject"?"hidden":"headerfont flex shrink-0 items-center px-4"}`}
               >
-                COMMUNITY BRAND
+                COMMUNITY PROJECT
               </Link>
               <Link to="/historyandroadmap" className={`${currentpath==="historyandroadmap"?"hidden":"headerfont flex shrink-0 items-center px-4"}`}
               >
@@ -112,14 +112,14 @@ const Header = (props) => {
                 </a>
                 <a
                   href="https://discord.gg/Jzz48CS6WR"
-                  className="flex items-center cursor-pointer pl-4 pr-8"
+                  className="flex items-center cursor-pointer px-4"
                   target="_blank" rel="noreferrer"
                 >
                   <img src={discordimg} alt="discordimg" className="min-w-[30px] max-w-[30px]"/>
                 </a>
                 <a
                   href="https://www.youtube.com/channel/UCPSend91jkkmQMRTng-TkWg"
-                  className="flex items-center cursor-pointer px-4"
+                  className="flex items-center cursor-pointer pl-4 pr-8"
                   target="_blank" rel="noreferrer"
                 >
                   <img src={yutubeimg} alt="yutubeimg" className="min-w-[30px] max-w-[30px]"/>

@@ -76,8 +76,8 @@ const MintPage = () => {
         walletAddress={walletAddress}
       />
       < div className="flex w-full lg:h-screen justify-center items-center ">
-        <div className="flex flex-col lg:flex-row w-4/5">
-          <div className="flex w-full lg:w-1/3 p-8 mt-[128px] lg:mt-[0px]">
+        <div className="flex flex-col lg:flex-row w-4/5 mt-[128px]">
+          <div className="flex w-full lg:w-1/3 p-8 ">
               <video
                 autoPlay
                 loop
@@ -115,6 +115,9 @@ const MintPage = () => {
                   totalSupply={totalSupply}
                   maxMintSupply={maxMintSupply}
                 />
+              </div>
+              <div className="flex sm:hidden w-full text-center text-red-600 font-bold my-4">
+                <div className="flex w-full justify-center">optimized for computers</div>
               </div>
               <ToastContainer />
             </div>  
