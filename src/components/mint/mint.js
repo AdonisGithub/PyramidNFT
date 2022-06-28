@@ -62,6 +62,9 @@ export const Mint = (props) => {
         </button>
       )}
       <div className='text-white text-center font-bold text-[14px]'>
+        <span>0.4ETH + Gas Fees</span>
+      </div>
+      <div className='text-white text-center font-bold text-[14px]'>
         <span>(</span>{totalSupply} / {maxMintSupply}<span>)</span>
       </div>
     </div>

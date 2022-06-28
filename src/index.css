@@ -29,6 +29,7 @@ code {
   color: #e6c425;
   box-shadow: 1px 1px 9px 1px white;
 }
+
 .custombutton2{
   font-size: 16px;
   font-weight: 800;
@@ -45,6 +46,24 @@ code {
 .custombutton2:active{
   color:white;
 }
+
+.custombutton3{
+  font-size: 16px;
+  font-weight: 800;
+  background: #e6c425;
+  border-radius: 7px;
+  width: 190px;
+  height: 33px;
+}
+.custombutton3:hover{
+  font-size: 18px;
+  box-shadow: 1px 1px 9px 1px white
+
+}
+.custombutton3:active{
+  color:white;
+}
+
 .headerfont{
   font-size: 16px;
   font-weight: 800;
@@ -93,6 +112,31 @@ code {
   background-position: center;
   background-size: cover;
 }
+
+@media (min-width: 768px) {
+  .background {
+    background-image: url("./assets/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  .background {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.textshadow{
+  text-shadow: 2px 1px 0px black;
+}
+
+
 
 @tailwind base;
 @tailwind components;

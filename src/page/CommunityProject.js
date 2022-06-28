@@ -1,15 +1,15 @@
 import React from "react";
 import {Header} from "../components/header";
-// import communitybackgroungimg from "../assets/images/communitybackimg.jpeg";
+//  import backgroundimg from "../assets/images/background.jpeg";
 
 const CommunityProject = () => {
   return (
-    <div className="flex w-full min-h-screen relative overflow-hidden background_communityproject">
+    <div className="flex w-full min-h-screen relative overflow-hidden background">
       <div className="flex z-30">
         <Header/>
       </div>
-      < div className="min-h-screen min-w-full z-20 flex justify-center items-center">
-          <div className="flex w-4/5 mt-[128px]">
+      < div className="min-h-screen min-w-full z-20 flex justify-center items-center ">
+          <div className="flex w-4/5 mt-[128px] bg-[#00000090] rounded-2xl">
             <div className="flex w-full pl-4">
               <div className="w-full">
                 <div className="flex w-full justify-center text-center font-serif text-white text-[24px] sm:text-[30px] font-bold underline my-9">
@@ -52,8 +52,8 @@ const CommunityProject = () => {
       <div className="flex sm:hidden w-full absolute text-center bottom-4 text-red-600 font-bold">
         <div className="flex w-full justify-center">optimized for computers</div>
       </div>
-      {/* <div className="hidden lg:flex absolute z-10 w-auto min-w-full min-h-full max-w-none overflow-hidden justify-center items-center">
-        <img src={communitybackgroungimg} alt="backgroundimg" className="flex h-screen w-full"/>
+      {/* <div className="hidden md:flex absolute z-10 w-auto min-w-full min-h-full max-w-none overflow-hidden justify-center items-center">
+        <img src={backgroundimg} alt="backgroundimg" className="flex h-screen w-full"/>
       </div> */}
     </div>
   );

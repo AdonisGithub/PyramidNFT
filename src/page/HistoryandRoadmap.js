@@ -6,13 +6,13 @@ import {Header} from "../components/header"
 
 const HistoryandRoadmap = () => {
   return (
-    <div className="flex w-full min-h-screen relative overflow-hidden background_historyandroadmap_lap">
+    <div className="flex w-full min-h-screen relative overflow-hidden background">
       <div className="flex z-30">
         <Header/>
       </div>
-      < div className="min-h-screen min-w-full z-20 flex justify-center items-center">
-        <div className="flex w-4/5 mt-[128px]">
-          <div className="flex w-full pl-4">
+      < div className="min-h-screen min-w-full z-20 flex justify-center items-center ">
+        <div className="flex w-4/5 mt-[128px] bg-[#00000090] rounded-2xl">
+          <div className="flex w-full px-4">
             <div className="w-full">
               <div className="flex w-full justify-center text-center font-serif text-white text-[24px] sm:text-[30px] font-bold underline my-9">
                 HISTORY AND ROADMAP

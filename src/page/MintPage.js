@@ -69,14 +69,14 @@ const MintPage = () => {
     })
 
   return (
-    <div className="w-full lg:h-screen  bg-black">
+    <div className="w-full lg:h-screen  background">
       <Header
         onClickDisconnectWallet={onClickDisconnectWallet}
         onClickConnectWallet={onClickConnectWallet}
         walletAddress={walletAddress}
       />
       < div className="flex w-full lg:h-screen justify-center items-center ">
-        <div className="flex flex-col lg:flex-row w-4/5 mt-[128px]">
+        <div className="flex flex-col lg:flex-row w-4/5 mt-[128px] bg-[#00000090] rounded-2xl">
           <div className="flex w-full lg:w-1/3 p-8 ">
               <video
                 autoPlay
